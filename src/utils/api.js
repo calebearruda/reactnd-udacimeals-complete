@@ -1,3 +1,7 @@
+import DotEnv from 'dotenv'
+
+DotEnv.config()
+
 const API_ID = process.env.REACT_APP_API_ID
 const APP_KEY = process.env.REACT_APP_APP_KEY
 
